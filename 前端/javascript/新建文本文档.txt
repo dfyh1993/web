@@ -1,0 +1,84 @@
+javaScript : 直接写入HTML输出流
+
+document.write("<h1>标题1</h1>");
+document.write("<p>段落</p>");
+  只能在html输出中使用document.write(); 如果在文档加载后，如在函数中使用则
+  会覆盖整个文档
+  
+  
+  
+ javaScript 事件
+   onclick="alert('aa')"
+    onclick  单击事件  alert() 测试使用的代码
+	onchange HTML元素改变
+	onmouseover  用户在一个HTML元素上移动鼠标
+	onmouseout   用户从一个HTML元素上移开鼠标
+	onkeydown    用户按下键盘按钮
+	onload   浏览器已完成页面的加载
+	
+javaScript 改变html内容  
+      x=document.getElementById("demo");  //获得id为demo的元素
+	  x.innerHTML="xxxx"    //demo元素的内容改变为xxxx
+	  
+	  
+
+javaScript  改变html样式
+
+     x=document.getElementById("Demo");
+	 x.style.color="#ff0000";   //改变样式
+	 
+	 
+javaScript 验证
+  if isNaN(X){
+      alert("不是数字");
+	  }
+	  
+javaScript 输出
+	 window.alert() 弹出警告框
+	 document.write()方法将内容写到HTM文档中
+	 innerHTML 写到HTML元素
+	 console.log()写到浏览器的控制台
+	
+	
+javaScript 语法
+     数字  小数 3.14，整数 111，科学计数123e4
+	 字符串   “aa"   'aaa'
+	 数组Array  [40,100,30]
+	 对象Object  {first: 'json',last:'doe'}
+	 函数function   function myfunction (a,b){ return a+b}
+	
+	换行符   \
+	
+javaScript  布尔类型 
+      
+javaScript  typeof
+     null 
+	 undefined
+	 string number
+	 object
+	 object(数组属于object)
+	  注： null与undefined 值相等，但类型不等
+	  
+javaScript   数据类型
+	 5种数据类型
+	    string 
+		number
+		boolean
+		object
+		function
+		
+	  3种对象类型
+	    Object
+		Date
+		Array
+		
+	  2个不包含任何值的数据类型
+	   null
+	   undefined
+	   
+	 typeof判断数据类型
+		NaN 的数据类型是 number
+		数组(Array)的数据类型是 object
+		日期(Date)的数据类型为 object
+		null 的数据类型是 object
+		未定义变量的数据类型为 undefined

@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>first</title>
+<script>
+//alert("word-spacing");
+function myFunction(){
+   alert("aa");
+	document.getElementById("demo").innerHTML="我的第一个javascript函数";
+}
+  document.getElementById("fn").innerHTML=
+	"YU".constructor+"<br>"+
+	(232.3).constructor+"<br>"+
+	true.constructor+"<br>"+
+	[2,3,6,].constructor+"<br>"+
+	{name:"ss",age:33}+"<br>"+
+	new Date().constructor+"<br>"+
+	function(){}.constructor+"<br>";
+</script>
+</head>
+<body>
+<script>
+document.write("<h1>标题</h1>");
+document.write("<p>段落</p>");
+
+</script>
+<p id="demo">按钮段落 </p>
+<p id="fn">constructor</p>
+<script>
+document.getElementById("fn").innerHTML=
+	"YU".constructor+"<br>"+
+	(232.3).constructor+"<br>"+
+	true.constructor+"<br>"+
+	[2,3,6].constructor+"<br>"+
+	{name:"ss",age:33}+"<br>"+
+	new Date().constructor+"<br>"+
+	function(){}.constructor+"<br>";
+</script>
+<button type="button" onclick="myFunction()">测试按钮</button>
+</body>
+</html>
