@@ -82,3 +82,35 @@ javaScript   数据类型
 		日期(Date)的数据类型为 object
 		null 的数据类型是 object
 		未定义变量的数据类型为 undefined
+		typeof  3.14
+		
+	constructor属性返回所有javascript变量的构造函数
+	判断给定对象是否为制定类型
+	   myArray  为数组
+	    myArray.constructor.toString().indexOf("Array")>-1; //值为true ,则myArray是数组
+		判断myDate是否为Date对象
+		myDate.constructor.toString().indexOf("Date")>-1;//值为true 则myDate为Date对象
+		
+	数据类型转换
+			全局方法String()可以将任何类型的数字，字母，变量，表达式转为字符串
+			String(x)  //x为变量
+			String(123);
+			String(100+23);//表达式
+			
+			Number的toString()也能将数字转为字符串
+			
+		    日期
+			  String(new Date())   date->string
+			  new Date().toString()    date->string
+			  getDay()  一周中的某一天
+			  getDate()  一月中某一天
+			  getFullYear() 四位数的年份
+			  getHours()   小时
+			  getMinutes()  分钟
+			  getSeconds()  秒
+			  getTime()   1971年1月1日至今的毫秒数
+			  
+				
+			转为数字
+			  Number()
+			  Number(new Date()) 等价new Date().getTime()
